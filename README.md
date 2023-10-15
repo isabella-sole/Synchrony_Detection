@@ -1,14 +1,4 @@
 # Synchrony_Detection
-
-## To Do in new fork:
-- clean up RD/src of excess files
-
-- check gitattribute and gitignore files
-	- check with local git etc.
-	- need to clear up handling of .dll files
-	- if you can get it into a local repo then rename 2_Reaching-Detection to 2_PoseDetection
-
-
 ## Installation
 1. Install Anaconda
 1. Download the GitHub repository Synchrony_Detection from my new fork
@@ -22,8 +12,8 @@
 1. Download openpose gpu version
 	- download: https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases/download/v1.7.0/openpose-1.7.0-binaries-win64-gpu-python3.7-flir-3d_recommended.zip
  	- unzip the downloaded folder
-1. Download models
-	- download: https://drive.google.com/drive/folders/1TUGl__i7x7JJKWsMts-RhyYNeS8UAIr3?usp=sharing
+1. Download models from here https://github.com/CMU-Perceptual-Computing-Lab/openpose/issues/1602#issuecomment-641653411
+2. Download best.pt from https://drive.google.com/drive/folders/1TUGl__i7x7JJKWsMts-RhyYNeS8UAIr3?usp=sharing
  	- add best.pt to Synchrony_Detection\\1_FaceDetection\\yolov7-main folder
 	- drag and drop the models folder into the unzipped openpose folder - this adds additional files to the existing models folder
 1. Copy the folders bin, include, lib and models from your openpose folder to Synchrony_Detection\2-Reaching_Detection
