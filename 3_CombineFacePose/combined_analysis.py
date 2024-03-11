@@ -11,12 +11,10 @@ if __name__ == '__main__':
     # Add the arguments
     my_parser.add_argument('--folder',
                            type=str,
-                           help='the folder containing both face_detect_output and pose_detect_output',
-                           default=r'D:\\test')
+                           help='the folder containing both face_detect_output and pose_detect_output')
     my_parser.add_argument('--fps',
                            type=str,
-                           help='video fps',
-                           default=25)
+                           help='video fps')
 
     # Execute the parse_args() method
     args = my_parser.parse_args()
