@@ -46,8 +46,14 @@ chardet
 filterpy
 
 # for MdRQA analysis
-multiSyncPy
+# multiSyncPy # for python version
+matlabengine # for matlab version
 
+# graph networks
+xlsxwriter
+igraph
+openpyxl
+pyinform
 
 
 

@@ -23,7 +23,7 @@ from pathlib import Path
 #         video_info
 # ----------------------------------------------------------------------
 
-FOLDER = Path("D:\\temp_br_test")  # XXX: edit this path,     "D:\\Complete_Dataset"
+FOLDER = Path("D:\\KHULA_jsons")  # XXX: edit this path
 HEAD_FOLDER = FOLDER / "head_output"
 POSE_FOLDER = FOLDER / "pose_output"
 ANALYSIS_FOLDER = FOLDER / "analysis_info"
@@ -31,6 +31,7 @@ FRAME_CHECKS = ANALYSIS_FOLDER / "frame_checks"
 BEST_CAMERAS = ANALYSIS_FOLDER / "best_cameras"
 MODEL1_FOLDER = FOLDER / "cross_corr" # fps automatically appended to this name
 MODEL2_FOLDER = FOLDER / "mdrqa" # fps automatically appended to this name
+MODEL3_FOLDER = FOLDER / "graph_network"
 
 KEYPOINTS_DICT = {0: "Nose",
                   1: "Neck",
